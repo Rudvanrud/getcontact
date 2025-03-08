@@ -1,5 +1,4 @@
 import argparse
-
 from getcontact.getcontact import GetContactAPI
 from getcontact.config import config
 
@@ -8,7 +7,9 @@ description = "Get information about phone number from databases of GetContact"
 parser = argparse.ArgumentParser(
     description=description, formatter_class=argparse.RawTextHelpFormatter
 )
-parser.add_argument("-p", "--phone", help="Phone number (example: +78005553535)")
+parser.add_argument("-p", "--phone", help="Phone number (example:
+79778976477
+)")
 parser.add_argument(
     "-j", "--json", help="Print output in JSON format", action="store_true"
 )
